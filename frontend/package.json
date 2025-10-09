@@ -6,7 +6,7 @@
   "homepage": "https://shubhamfulldev7.github.io/The-Idea-Board",
   "scripts": {
     "predeploy": "npm run build",
-    "deploy": "gh-pages -d dist -b gh-pages -r https://github.com/shubhamfulldev7/The-Idea-Board.git -s frontend",
+    "deploy": "gh-pages -d dist",
     "dev": "vite --host",
     "build": "vite build",
     "preview": "vite preview --host --port 5173"
