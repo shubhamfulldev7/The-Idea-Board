@@ -1,14 +1,18 @@
 {
   "name": "ideas-frontend",
+  "homepage": "https://shubhamfulldev7.github.io/The-Idea-Board",
   "private": true,
   "version": "1.0.0",
   "type": "module",
   "scripts": {
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
     "dev": "vite --host",
     "build": "vite build",
-    "preview": "vite preview --host --port 5173"
+    "preview": "vite preview --host --port 5173",
   },
   "dependencies": {
+    "gh-pages": "^6.3.0",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
     "react-router-dom": "^6.26.2"
